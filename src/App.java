@@ -2,8 +2,8 @@
 public class App {
     public static void main(String[] args) throws Exception {
         System.out.println("*****Mini sistema financeiro*****");
-        contaBancaria primeiraConta = new contaBancaria("João", 100);
-        contaBancaria segundaConta = new contaBancaria("Maria", 1000);
+        ContaBancaria primeiraConta = new ContaBancaria("João", 100);
+        ContaBancaria segundaConta = new ContaBancaria("Maria", 1000);
         primeiraConta.deposito(150);
         primeiraConta.verTitular();
         primeiraConta.verSaldo();

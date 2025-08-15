@@ -1,9 +1,9 @@
-public class contaBancaria {
+public class ContaBancaria {
 
     private String nomeTitular;
     private float saldo;
     
-    public contaBancaria(String titular, float saldoInicial){
+    public ContaBancaria(String titular, float saldoInicial){
         this.nomeTitular = titular;
         this.saldo = saldoInicial;
     }
